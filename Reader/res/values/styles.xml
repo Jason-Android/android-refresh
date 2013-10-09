@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="main_tab_bottom">
+	<item name="android:textSize">@dimen/bottom_tab_font_size</item>
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:background">@drawable/home_btn_bg</item>
+    <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@null</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+    <item name="android:layout_weight">1.0</item>
+</style>
+ 
+
+    <style name="comm_controls">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+    </style>
+
+    <style name="title_info">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="title_back_info">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginRight">15.0dip</item>
+    </style>
+
+    <style name="title_margin">
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+    </style>
+
+</resources>
